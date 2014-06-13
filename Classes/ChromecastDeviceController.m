@@ -50,7 +50,7 @@ static NSString *kReceiverAppURL; //Receiver app url
 - (id)initWithFeatures:(ChromecastControllerFeatures)featureFlags {
     self = [super init];
     if (self) {
-        kReceiverAppURL = @"http://castapp.infthink.com/receiver/mediaplayer/index.html";
+        kReceiverAppURL = @"http://myfirefly.s3.amazonaws.com/cast/receiver/mediaplayer/index.html";
         
         // Remember the features.
         _features = featureFlags;

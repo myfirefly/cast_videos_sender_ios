@@ -14,7 +14,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define MEDIA_URL_BASE @"http://castapp.infthink.com/droidream/samples/"
+#define MEDIA_URL_BASE @"http://myfirefly.s3.amazonaws.com/cast/droidream/samples/"
 #define MEDIA_URL_FILE @"vlist.json"
 
 /**
